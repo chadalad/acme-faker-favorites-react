@@ -1,0 +1,57 @@
+* {
+    font-family: sans-serif;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: left;
+}
+
+.customerListContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.customerBox {
+    display: flex;
+    border: solid 2px black;
+    font-size: x-large;
+    height: 80px;
+    margin: 1rem;
+    align-items: center;
+}
+
+.customerBoxVIP {
+    background-color: green;
+}
+
+.customerBoxNormal {
+    background-color: beige;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    height: 300px;
+    justify-content: space-around;
+}
+
+input {
+    width: 70%;
+    height: 2rem;
+}
+
+button {
+    width: 70%;
+    height: 2rem;
+}
